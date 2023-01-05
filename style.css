@@ -12,4 +12,7 @@ nav {
     justify-content: start;
     align-items: center;
     gap: 40px;
+h1,
+h2 {
+    padding: 10px;
 }
