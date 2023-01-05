@@ -1,3 +1,8 @@
+:root {
+    --pretty-yellow: #ffde82;
+    --lightest-pretty-yellow: #fffbf0;
+    --darkest-pretty-yellow: #876403;
+}
 * {
     box-sizing: border-box;
 }
