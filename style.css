@@ -4,3 +4,9 @@
 body {
     margin: 0;
 }
+nav {
+    width: 100vw;
+    height: 20vh;
+    padding: 20px 40px;
+    background-color: aliceblue;
+}
