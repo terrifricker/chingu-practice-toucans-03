@@ -19,7 +19,10 @@ nav {
     justify-content: start;
     align-items: center;
     gap: 40px;
+    border-bottom: 2pt solid var(--darkest-pretty-yellow);
+}
 h1,
 h2 {
     padding: 10px;
+    border: 1pt solid var(--darkest-pretty-yellow);
 }
