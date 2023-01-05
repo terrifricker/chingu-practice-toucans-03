@@ -8,11 +8,13 @@
 }
 body {
     margin: 0;
+    background-color: var(--lightest-pretty-yellow);
 }
 nav {
     width: 100vw;
     height: 20vh;
     padding: 20px 40px;
+    background-color: var(--pretty-yellow);
     display: flex;
     justify-content: start;
     align-items: center;
