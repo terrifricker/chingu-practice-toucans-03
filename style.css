@@ -8,5 +8,8 @@ nav {
     width: 100vw;
     height: 20vh;
     padding: 20px 40px;
-    background-color: aliceblue;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
 }
