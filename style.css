@@ -1,6 +1,7 @@
 :root {
     --pretty-yellow: #ffde82;
     --lightest-pretty-yellow: #fffbf0;
+    --dark-pretty-yellow: #ad8515;
     --darkest-pretty-yellow: #876403;
 }
 * {
