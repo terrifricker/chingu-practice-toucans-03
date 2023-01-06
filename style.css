@@ -1,0 +1,28 @@
+:root {
+    --pretty-yellow: #ffde82;
+    --lightest-pretty-yellow: #fffbf0;
+    --darkest-pretty-yellow: #876403;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: var(--lightest-pretty-yellow);
+}
+nav {
+    width: 100vw;
+    height: 20vh;
+    padding: 1rem 2rem;
+    background-color: var(--pretty-yellow);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2.5rem;
+    border-bottom: 2pt solid var(--darkest-pretty-yellow);
+}
+h1,
+h2 {
+    padding: 1rem;
+    border: 1pt solid var(--darkest-pretty-yellow);
+}
