@@ -27,3 +27,12 @@ h2 {
     padding: 1rem;
     border: 1pt solid var(--darkest-pretty-yellow);
 }
+button {
+    width: 10vw;
+    height: 3vw;
+    margin: 0.5rem;
+    background-color: var(--dark-pretty-yellow);
+    border: 2pt solid va;
+    border-radius: 5px;
+    cursor: pointer;
+}
