@@ -1,37 +1,41 @@
 :root {
-    --pretty-yellow: #ffde82;
-    --lightest-pretty-yellow: #fffbf0;
-    --dark-pretty-yellow: #ad8515;
-    --darkest-pretty-yellow: #876403;
+    /* color scheme from Evermore Branding's
+       Autumn Spice Rustic Fall Color Palette */
+    --viridian: #4f544b;
+    --spice: #732c02;
+    --mahogany: #401201;
+    --mist: #e0e1da;
+    --storm: #3f505d;
 }
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0;
-    background-color: var(--lightest-pretty-yellow);
+    color: white;
+    background-color: var(--storm);
 }
 nav {
     width: 100vw;
     height: 20vh;
     padding: 1rem 2rem;
-    background-color: var(--pretty-yellow);
+    background-color: var(--spice);
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 2.5rem;
-    border-bottom: 2pt solid var(--darkest-pretty-yellow);
+    border-bottom: 2pt solid var(--mahogany);
 }
 h1,
 h2 {
     padding: 1rem;
-    border: 1pt solid var(--darkest-pretty-yellow);
+    border: 1pt solid var(--mahogany);
 }
 button {
     width: 10vw;
     height: 3vw;
     margin: 0.5rem;
-    background-color: var(--dark-pretty-yellow);
+    background-color: var(--mist);
     border: 2pt solid va;
     border-radius: 5px;
     cursor: pointer;
@@ -41,8 +45,8 @@ button > a:visited,
 button > a:hover {
     text-decoration: none;
     font-size: 1rem;
-    color: var(--lightest-pretty-yellow);
+    color: var(--mahogany);
 }
 button > a:active {
-    color: var(--pretty-yellow);
+    color: black;
 }
