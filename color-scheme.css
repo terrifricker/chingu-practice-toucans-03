@@ -9,7 +9,7 @@
 }
 body {
     margin: 0;
-    color: var(--mist);
+    color: white;
     background-color: var(--storm);
 }
 nav {
