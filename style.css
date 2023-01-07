@@ -7,6 +7,9 @@
     --mist: #e0e1da;
     --storm: #3f505d;
 }
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     color: white;
