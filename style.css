@@ -1,6 +1,7 @@
 :root {
     --pretty-yellow: #ffde82;
     --lightest-pretty-yellow: #fffbf0;
+    --dark-pretty-yellow: #ad8515;
     --darkest-pretty-yellow: #876403;
 }
 * {
@@ -25,4 +26,23 @@ h1,
 h2 {
     padding: 1rem;
     border: 1pt solid var(--darkest-pretty-yellow);
+}
+button {
+    width: 10vw;
+    height: 3vw;
+    margin: 0.5rem;
+    background-color: var(--dark-pretty-yellow);
+    border: 2pt solid va;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button > a:link,
+button > a:visited,
+button > a:hover {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--lightest-pretty-yellow);
+}
+button > a:active {
+    color: var(--pretty-yellow);
 }
